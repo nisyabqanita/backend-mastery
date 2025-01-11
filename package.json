@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-basics",
+  "version": "1.0.0",
+  "description": "learn BE and master it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "NODE_ENV=development node app.js",
+    "start": "NODE_ENV=production node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisyabqanita/backend-mastery.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "nisya qanita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nisyabqanita/backend-mastery/issues"
+  },
+  "homepage": "https://github.com/nisyabqanita/backend-mastery#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1"
+  }
+}
